@@ -3,7 +3,7 @@ import React, { use } from 'react'
 const Users2 = ({userPromis}) => {
 
 const users = use(userPromis)
-console.log('The users Data is',users)
+// console.log('The users Data is',users)
 
   return (
     <div>
