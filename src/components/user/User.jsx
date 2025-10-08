@@ -10,7 +10,11 @@ const User = ({ user }) => {
         <h1>{name}</h1>
         <h5>Email: {email}</h5>
         <p>{phone}</p>
-        <Link to={`/users/${id}`} className="bg-gray-500 py-2 px-4 rounded my-3">Show Details</Link>
+        <Link to={`/users/${id}`}>
+          <button className="btn bg-amber-600 text-black font-bold rounded py-2 px-4">
+            Show Details
+          </button>
+        </Link>
       </div>
     </div>
   );
