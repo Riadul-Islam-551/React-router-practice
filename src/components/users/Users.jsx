@@ -10,7 +10,7 @@ const Users = () => {
     <div>
       <h2 className="text-2xl font-bold">This is users data </h2>
       {
-        users.map(user => <User user={user}></User>)
+        users.map(user => <User key={user.id} user={user}></User>)
       }
     </div>
   );

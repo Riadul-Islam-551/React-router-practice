@@ -9,7 +9,7 @@ const Root = () => {
   return (
     <div>
       <Header></Header>
-      <div className="mx-auto flex border justify-center items-center ">
+      <div className="mx-auto flex border justify-center items-start  ">
         <Sidebar></Sidebar>
         <Outlet></Outlet>
       </div>
